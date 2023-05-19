@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/logge817/public_html/testes/cpanel-test
-    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp * $DEPLOYPATH
